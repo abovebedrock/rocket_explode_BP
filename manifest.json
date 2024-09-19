@@ -1,0 +1,33 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [ "LJM12914" ]
+    },
+    "header": {
+        "name": "烟花火箭爆炸",
+        "description": "烟花火箭在到达最高点时爆炸，会点燃并摧毁附近的方块！",
+        "min_engine_version": [ 1, 21, 20 ],
+        "uuid": "5513c94a-2dc3-4b50-8b18-045769f1b005",
+        "version": [ 1, 0, 0 ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "4b203d87-cd64-4387-befc-8ab3753c0dbb",
+            "version": [ 1, 0, 0 ]
+        },
+        {
+            "type": "script",
+            "uuid": "e2627e3b-9f98-406b-a526-003cae99e3ee",
+            "version": [ 1, 0, 0 ],
+            "language": "javascript",
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.14.0-beta"
+        }
+    ]
+}
